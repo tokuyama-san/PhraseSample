@@ -1,6 +1,6 @@
 phrase:
   #access_token: ACCESS_TOKEN
-  #project_id: PROJECT_ID
+  project_id: 43f1dd1ee0c0b4e79379cd1d268138b8
   file_format: xml
   pull:
     targets:
