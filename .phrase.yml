@@ -1,1 +1,5 @@
+#!/bin/bash
 
+# upload new strings to Phrase as configured in the .phrase.yml
+
+phrase push
