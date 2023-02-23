@@ -1,5 +1,35 @@
-#!/bin/bash
-
-# upload new strings to Phrase as configured in the .phrase.yml
-
-phrase push
+phrase:
+  access_token: ACCESS_TOKEN
+  project_id: PROJECT_ID
+  file_format: xml
+  pull:
+    targets:
+      - file: ./app/src/main/res/values/strings.xml
+        params:
+          file_format: xml
+          # Unique locale id for English
+          locale_id: LOCALE_ID_DEFAULT
+      - file: ./app/src/main/res/values-de/strings.xml
+        params:
+          file_format: xml
+          # Unique locale id for German
+          locale_id: LOCALE_ID_GR
+      - file: ./app/src/main/res/values-de-rAU/strings.xml
+        params:
+          file_format: xml
+          # Unique locale id for Austrian
+          locale_id: LOCALE_ID_AU
+  push:
+    sources:
+      - file: ./app/src/main/res/values/strings.xml
+        params:
+          file_format: xml
+          locale_id: LOCALE_ID_DEFAULT
+      - file: ./app/src/main/res/values-de/strings.xml
+        params:
+          file_format: xml
+          locale_id: LOCALE_DE
+      - file: ./app/src/main/res/values-de-rAU/strings.xml
+        params:
+          file_format: xml
+          locale_id: LOCALE_ID_AU
