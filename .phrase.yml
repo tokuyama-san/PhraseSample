@@ -2,34 +2,26 @@ phrase:
   #access_token: ACCESS_TOKEN
   project_id: 43f1dd1ee0c0b4e79379cd1d268138b8
   file_format: xml
-  pull:
-    targets:
-      - file: ./app/src/main/res/values/strings.xml
-        params:
-          file_format: xml
-          # Unique locale id for English
-          locale_id: LOCALE_ID_DEFAULT
-      - file: ./app/src/main/res/values-de/strings.xml
-        params:
-          file_format: xml
-          # Unique locale id for German
-          locale_id: LOCALE_ID_GR
-      - file: ./app/src/main/res/values-de-rAU/strings.xml
-        params:
-          file_format: xml
-          # Unique locale id for Austrian
-          locale_id: LOCALE_ID_AU
   push:
     sources:
       - file: ./app/src/main/res/values/strings.xml
         params:
           file_format: xml
-          locale_id: LOCALE_ID_DEFAULT
+          locale_id: ja
+          tags: github
+          update_translations: true
+          autotranslate: true
+  pull:
+    targets:
       - file: ./app/src/main/res/values-de/strings.xml
         params:
           file_format: xml
-          locale_id: LOCALE_DE
+          # Unique locale id for German
+          locale_id: de
+          tags: github
       - file: ./app/src/main/res/values-de-rAU/strings.xml
         params:
           file_format: xml
-          locale_id: LOCALE_ID_AU
+          # Unique locale id for Austrian
+          locale_id: de-au
+          tags: github
