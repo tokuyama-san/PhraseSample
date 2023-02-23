@@ -1,6 +1,6 @@
 phrase:
-  access_token: ACCESS_TOKEN
-  project_id: PROJECT_ID
+  #access_token: ACCESS_TOKEN
+  #project_id: PROJECT_ID
   file_format: xml
   pull:
     targets:
