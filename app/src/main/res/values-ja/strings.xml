@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string name="app_name">PhraseSample</string>
+    <string name="from_android_studio_1">Androidから追加1</string>
     <string name="good_afternoon">こんばんは</string>
     <string name="good_morning">おはようございます\n元気ですか？</string>
     <string name="good_night">おやすみなさい</string>
