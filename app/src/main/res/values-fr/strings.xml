@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string name="app_name">PhraseSample</string>
+    <string name="from_android_studio_1">Ajouter 1 à partir d’Android</string>
     <string name="good_afternoon">Bonsoir</string>
     <string name="good_morning">Bonjour\nComment allez-vous?</string>
     <string name="good_night">Bonne nuit</string>
