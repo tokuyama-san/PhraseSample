@@ -35,3 +35,8 @@ phrase:
           file_format: xml
           locale_id: fr
           tags: github
+      - file: ./app/src/main/res/values-zh-rTW/strings.xml
+          params:
+            file_format: xml
+            locale_id: zh-TW
+            tags: github
