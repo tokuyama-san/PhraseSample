@@ -10,18 +10,33 @@ phrase:
           locale_id: en
           tags: github
           update_translations: true
-          autotranslate: true
+#          autotranslate: true
+      - file: ./app/src/main/res/values-ja/strings.xml
+        params:
+          file_format: xml
+          locale_id: ja
+          tags: github
+          update_translations: true
+      - file: ./app/src/main/res/values-zh-rCN/strings.xml
+        params:
+          file_format: xml
+          locale_id: zh-CN
+          tags: github
+          update_translations: true
   pull:
     targets:
       - file: ./app/src/main/res/values-ja/strings.xml
         params:
           file_format: xml
-          # Unique locale id for Japanese
           locale_id: ja
           tags: github
       - file: ./app/src/main/res/values-fr/strings.xml
         params:
           file_format: xml
-          # Unique locale id for France
           locale_id: fr
+          tags: github
+      - file: ./app/src/main/res/values-zh-rTW/strings.xml
+        params:
+          file_format: xml
+          locale_id: zh-TW
           tags: github

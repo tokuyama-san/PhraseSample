@@ -5,4 +5,6 @@
     <string name="good_afternoon">Good Afternoon</string>
     <string name="good_night">Good night</string>
     <string name="test_string">Do work good WebHook?</string>
+    <string name="from_android_studio_1">From Android Studio1</string>
+    <string name="from_android_studio_2">From Android Studio2</string>
 </resources>
