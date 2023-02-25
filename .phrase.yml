@@ -11,7 +11,7 @@ phrase:
           tags: github
           update_translations: true
           unescape_linebreaks: true
-#          autotranslate: true
+          autotranslate: true
       - file: ./app/src/main/res/values-ja/strings.xml
         params:
           file_format: xml
@@ -19,6 +19,7 @@ phrase:
           tags: github
           update_translations: true
           unescape_linebreaks: true
+          autotranslate: true
       - file: ./app/src/main/res/values-zh-rCN/strings.xml
         params:
           file_format: xml
@@ -26,6 +27,7 @@ phrase:
           tags: github
           update_translations: true
           unescape_linebreaks: true
+          autotranslate: true
   pull:
     targets:
       - file: ./app/src/main/res/values-ja/strings.xml

@@ -7,4 +7,5 @@
     <string name="good_night">おやすみなさい</string>
     <string name="greeting">こんにちは</string>
     <string name="test_string">WebHookうまく動くかな</string>
+    <string name="from_android_studio_3">自動翻訳</string>
 </resources>
