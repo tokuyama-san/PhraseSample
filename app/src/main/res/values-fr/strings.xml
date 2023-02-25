@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">PhraseSample</string>
+    <string name="greeting">Hello</string>
+    <string name="good_morning">Good morning\nFine?</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_night">Good night</string>
+    <string name="test_string">Do work good WebHook?</string>
 </resources>
