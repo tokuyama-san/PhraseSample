@@ -19,9 +19,9 @@ phrase:
           # Unique locale id for Japanese
           locale_id: ja
           tags: github
-#      - file: ./app/src/main/res/values-de-rAU/strings.xml
-#        params:
-#          file_format: xml
-#          # Unique locale id for Austrian
-#          locale_id: de-au
-#          tags: github
+      - file: ./app/src/main/res/values-fr/strings.xml
+        params:
+          file_format: xml
+          # Unique locale id for France
+          locale_id: fr
+          tags: github
