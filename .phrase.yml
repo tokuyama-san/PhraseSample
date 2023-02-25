@@ -18,11 +18,11 @@ phrase:
           tags: github
           update_translations: true
       - file: ./app/src/main/res/values-zh-rCN/strings.xml
-          params:
-            file_format: xml
-            locale_id: zh-CN
-            tags: github
-            update_translations: true
+        params:
+          file_format: xml
+          locale_id: zh-CN
+          tags: github
+          update_translations: true
   pull:
     targets:
       - file: ./app/src/main/res/values-ja/strings.xml
@@ -36,7 +36,7 @@ phrase:
           locale_id: fr
           tags: github
       - file: ./app/src/main/res/values-zh-rTW/strings.xml
-          params:
-            file_format: xml
-            locale_id: zh-TW
-            tags: github
+        params:
+          file_format: xml
+          locale_id: zh-TW
+          tags: github
