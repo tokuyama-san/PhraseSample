@@ -10,6 +10,7 @@ phrase:
           locale_id: en
           tags: github
           update_translations: true
+          unescape_linebreaks: true
 #          autotranslate: true
       - file: ./app/src/main/res/values-ja/strings.xml
         params:
@@ -17,12 +18,14 @@ phrase:
           locale_id: ja
           tags: github
           update_translations: true
+          unescape_linebreaks: true
       - file: ./app/src/main/res/values-zh-rCN/strings.xml
         params:
           file_format: xml
           locale_id: zh-CN
           tags: github
           update_translations: true
+          unescape_linebreaks: true
   pull:
     targets:
       - file: ./app/src/main/res/values-ja/strings.xml
