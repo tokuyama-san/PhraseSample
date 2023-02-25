@@ -7,21 +7,21 @@ phrase:
       - file: ./app/src/main/res/values/strings.xml
         params:
           file_format: xml
-          locale_id: ja
+          locale_id: en
           tags: github
           update_translations: true
           autotranslate: true
   pull:
     targets:
-      - file: ./app/src/main/res/values-de/strings.xml
+      - file: ./app/src/main/res/values-ja/strings.xml
         params:
           file_format: xml
-          # Unique locale id for German
-          locale_id: de
+          # Unique locale id for Japanese
+          locale_id: ja
           tags: github
-      - file: ./app/src/main/res/values-de-rAU/strings.xml
-        params:
-          file_format: xml
-          # Unique locale id for Austrian
-          locale_id: de-au
-          tags: github
+#      - file: ./app/src/main/res/values-de-rAU/strings.xml
+#        params:
+#          file_format: xml
+#          # Unique locale id for Austrian
+#          locale_id: de-au
+#          tags: github

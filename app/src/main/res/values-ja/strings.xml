@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PhraseSample</string>
+    <string name="greeting">こんにちは</string>
+    <string name="good_morning">おはようございます\n元気ですか？</string>
+    <string name="good_afternoon">こんばんは</string>
+    <string name="good_night">おやすみなさい</string>
+    <string name="test_string">WebHookうまく動くかな</string>
+</resources>
